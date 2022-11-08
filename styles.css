@@ -1,0 +1,36 @@
+/* ------COMMON STYLES------ */
+
+/* FONTS */
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(./fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family:Gilroy-Regular;
+  src: url(./fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family:Gilroy-SemiBold;
+  src: url(./fonts/Gilroy-SemiBold.ttf);
+}
+
+@font-face {
+  font-family:HomemadeApple-Regular;
+  src: url(./fonts/HomemadeApple-Regular.ttf);
+}
+
+@font-face {
+  font-family:Roboto-Regular;
+  src: url(./fonts/Roboto-Regular.ttf);
+}
+
+/* FONTS */
+
+body{
+  font-family: Gilroy-Regular, sans-serif;
+}
+
+/* ------COMMON STYLES------ */
