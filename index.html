@@ -10,66 +10,271 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Modern normilize -->
   <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-<!-- --------Header-------- -->
+<!-- ________Header________ -->
   <header>
-    <section class="container">
-      <span class="header-logo">logo</span>
-      <nav>
-        <ul class="links-list">
-          <li class="links-item">
-            <a class="link-list" href="">
-              Home
-            </a>
-          </li>
+    <section class="header">
+      <div class="container header-container">
+        <span class="header-logo">logo</span>
+        <nav>
+          <ul class="links-list">
+            <li class="links-item">
+              <a class="link" href="">
+                Home
+              </a>
+            </li>
 
-          <li class="links-item">
-            <a class="link-list" href="">
-              About Us
-            </a>
-          </li>
+            <li class="links-item">
+              <a class="link" href="">
+                About Us
+              </a>
+            </li>
 
-          <li class="links-item">
-            <a class="link-list" href="">
-              Services
-            </a>
-          </li>
+            <li class="links-item">
+              <a class="link" href="">
+                Services
+              </a>
+            </li>
 
-          <li class="links-item">
-            <a class="link-list" href="">
-              Blogs
-            </a>
-          </li>
+            <li class="links-item">
+              <a class="link" href="">
+                Blogs
+              </a>
+            </li>
+         
+          </ul>
         </nav>
-      </ul>
-      <button class="header-btn">
-        Gift Finder
-      </button>
-    </section>
-  </header>
-<!-- --------Header-------- -->
-<!-- --------Main-------- -->
-  <main>
-    <section class="container">
-      <div class="find-gift">
-        <div class="find-gift-text">
-
-        </div>
-        <div class="find-gift-img-cont">
-          <img src="" alt="" class="find-gift-img">
-        </div>
+        <button type="button" class="header-btn">
+          Gift Finder
+        </button>
       </div>
     </section>
-  </main>
-<!-- --------Main-------- -->
-<!-- --------Footer-------- -->
-  <footer>
-    <section class="container">
-      
+  </header>
+<!-- ________Header_________ -->
+<!-- _________Main________ -->
+  <main>
+    
+    <section class="hero">
+      <div class="container">
+          <!-- __Find gift__ -->
+          <div class="find-gift">
+            <div class="find-gift-text">
+              <h1 class="find-gift-main-title">Find a gift for your wife or girlfriend</h1>
+              <h2 class="find-gift-secondary-title">Struggling to find a gift for your wife or girlfriend? No problem!</h2>
+              <button class="find-gift-btn">
+                Find gift now
+              </button>
+            </div>
+            <div class="find-gift-img-container">
+              <img src="./images/hero/find-gift-bg.jpg" alt="" class="find-gift-img">
+            </div>
+          </div>
+          <!-- __Find gift__ -->
+
+
+          <!-- __How work__ -->
+          <div class="how-work">
+            <img src="./images/hero/how-work-bg.jpg" alt="" class="how-work-img">
+            <div class="how-work-txt-block">
+              <h2 class="how-work-title">How we work</h2>
+              <p class="how-work-txt">
+                We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do
+                is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift
+                options.
+              </p>
+              <button class="how-work-btn">Find gift now</button>
+            </div>
+            
+          </div>
+          <!-- __How work__ -->
+      </div>
     </section>
+
+    <!-- __Gifts__ -->
+
+    <section class="gifts">
+      <div class="container gifts-container">
+        <h2 class="gifts-title">Gifts for all Occasions</h2>
+        <p class="gifts-txt">“Try our web app to find the best gifts for all occasions”</p>
+        <ul class="gifts-list">
+
+          <li class="gifts-item">
+            <img src="./images/gifts/gift-birthday.jpg" alt="" class="gifts-img">
+            <div class="gifts-item-txt">
+              <p class="img-title">Birthday</p>
+              <a class="gifts-item-href" href="">See More ›</a>
+            </div>
+          </li>
+
+          <li class="gifts-item">
+            <img src="./images/gifts/gift-anniversary.jpg" alt="" class="gifts-img">
+            <div class="gifts-item-txt">
+              <p class="img-title">Anniversary</p>
+              <a class="gifts-item-href" href="">See More ›</a>
+            </div>
+          </li>
+
+          <li class="gifts-item">
+            <img src="./images/gifts/gift-valentine-day.jpg" alt="" class="gifts-img">
+            <div class="gifts-item-txt">
+              <p class="img-title">Valentine's Day</p>
+              <a class="gifts-item-href" href="">See More ›</a>
+            </div>
+          </li>
+
+          <li class="gifts-item">
+            <img src="./images/gifts/gift-cristmas.jpg" alt="" class="gifts-img">
+            <div class="gifts-item-txt">
+              <p class="img-title">Christmas</p>
+              <a class="gifts-item-href" href="">See More ›</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- __Gifts__ -->
+
+
+
+
+    <!-- __Ready to get started__ -->
+
+    <section class="ready">
+      <div class="ready-txt-box">
+        <h2 class="ready-qestion">Ready to get started?</h2>
+        <p class="ready-sign-up">Sign up or contact us</p>
+      </div>
+      <div class="ready-btn-box">
+        <ul class="ready-btn-list">
+          <li class="ready-btn-item">
+            <button class="ready-btn">Find gift now</button>
+          </li>
+
+          <li class="ready-btn-item">
+            <button class="ready-btn">how it works</button>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+
+    <!-- __Ready to get started__ -->
+
+    <!-- __Best Blogs Ever__ -->
+
+    <section class="blog-feature">
+      <!-- TITLES -->
+      <div class="blog-titles">
+        <h2 class="blog-titles-small">Our Best Blogs Ever</h2>
+        <p class="blog-titles-txt">“Try our blog to find the best tips and tricks to select your gift”</p>
+      </div>
+      <!-- BLOG CARD FEATURE -->
+      <div class="blog-card-feature">
+        <img src="./images/blog/blog-img.jpg" alt="">
+        <div class="blog-card-feature-txt-contaner">
+          <p class="blog-card-feature-author">Mr. John Doe</p>
+          <h2 class="blog-card-feature-title">The best way to wish your wife</h2>
+          <a href="" class="blog-card-feature-href">Read More</a>
+        </div>
+      </div>
+      <!-- BLOG CARD LIST -->
+      <ul class="blog-card-list">
+        <li class="blog-card-items">
+          <h4 class="blog-card-title">Database to find the gifts for your girlfriend</h4>
+          <p class="blog-card-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+          <a href="" class="blog-card-href">Read More</a>
+        </li>
+
+        <li class="blog-card-items">
+          <h4 class="blog-card-title">How Artificial Intelligence read your mind to find the best gift</h4>
+          <p class="blog-card-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+          <a href="" class="blog-card-href">Read More</a>
+        </li>
+      </ul>
+
+    </section>
+
+    <!-- --Best Blogs Ever-- -->
+
+  </main>
+<!-- ________Main________ -->
+<!-- ________Footer________ -->
+  <footer>
+
+     <section class="footer">
+      <div class="contaner">
+
+        <div class="footer-navigation-list-container">
+          <ul class="footer-navigation">
+            <li class="footer-navigation-item">
+              <a href="" class="footer-navigation-href">Home</a>
+            </li>
+
+            <li class="footer-navigation-item">
+              <a href="" class="footer-navigation-href">About</a>
+            </li>
+
+          </ul>
+
+          <a class="footer-navigation-logo" href="./index.html">logo</a>
+
+          <ul class="footer-navigation">
+            <li class="footer-navigation-item">
+              <a href="" class="footer-navigation-href">Service</a>
+            </li>
+
+            <li class="footer-navigation-item">
+              <a href="" class="footer-navigation-href">Blog</a>
+            </li>
+
+          </ul>
+        </div>
+
+        <ul class="socials-list">
+          <li class="socials-list-item">
+            <svg class="socials-list-svg" width="40" height="40">
+              <use href="./images/svg/symbol-defs.svg#facebook">./</use>
+            </svg>
+          </li>
+
+          <li class="socials-list-item">
+            <svg class="socials-list-svg" width="40" height="40">
+              <use href="./images/svg/symbol-defs.svg#twitter">./</use>
+            </svg>
+          </li>
+
+          <li class="socials-list-item">
+            <svg class="socials-list-svg" width="40" height="40">
+              <use href="./images/svg/symbol-defs.svg#instagram">./</use>
+            </svg>
+          </li>
+
+          <li class="socials-list-item">
+            <svg class="socials-list-svg" width="40" height="40">
+              <use href="./images/svg/symbol-defs.svg#youtube">./</use>
+            </svg>
+          </li>
+
+          <li class="socials-list-item">
+            <svg class="socials-list-svg" width="40" height="40">
+              <use href="./images/svg/symbol-defs.svg#pinterest">./</use>
+            </svg>
+          </li>
+
+        </ul>
+
+        <div class="privacy-container">
+          <span class="privacy-txt">© 2010 — 2020</span>
+          <a href="" class="privacy-link">Privacy — Terms</a>
+        </div>
+      </div>
+     </section> 
+ 
   </footer>
-<!-- --------Footer-------- -->
+<!-- ________Footer________ -->
 </body>
 </html>
