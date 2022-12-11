@@ -1,3 +1,7 @@
+:root{
+  --anim: 250ms;
+}
+
 /* ------COMMON STYLES------ */
 
 /* FONTS */
@@ -37,12 +41,10 @@ body{
   width: 1440px;
   margin: 0 auto;
 }
-/* 
-.container {
-} */
 
 a{
-  text-decoration: none
+  text-decoration: none;
+
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -263,6 +265,7 @@ h1, h2, h3, h4, h5, h6{
 
 .gifts-item {
   background-color: #FAFAFA;
+  transition: box-shadow, var(--anim);
 }
 
 .gifts-item:hover, .gifts-item:focus{
@@ -287,6 +290,12 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 400;
   font-size: 14px;
   line-height: calc(19/14);
+  color: #000;
+  transition: color, var(--anim);
+}
+
+.gifts-item-href:hover, .gifts-item-href:focus{
+  color: #F7941E;
 }
 
 /* Gifts */
